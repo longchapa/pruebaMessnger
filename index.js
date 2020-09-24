@@ -7,6 +7,7 @@ const
     app = express().use(bodyParser.json());
 
 const request = require('request');
+require('dotenv').config()
 
 
 //Se define el puerto del servidor y mensaje de conexion
